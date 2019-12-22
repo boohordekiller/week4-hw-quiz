@@ -10,17 +10,28 @@ body {
     background-color:#f8f9fa;
     padding: 10px 50px 50px 50px;
     border: 1px solid #cbcbcb;
+}
 
-    
+.inner-grid {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+.btn-primary {
+    border-radius: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 22px;
 }
 
 .grid h1 {
-    font-family: "sans-serif";
-    background-color: #57636e;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background-color: #0765ca;
     font-size: 60px;
     text-align: center;
     color: #ffffff;
-    padding: 2px 0px;
+    padding: 4px 0px;
     border-radius: 50px;
 }
 
@@ -41,7 +52,7 @@ body {
 }
 
 #btn0, #btn1, #btn2, #btn3 {
-    background-color: #778897;
+    background-color: #007BFF;
     width: 250px;
     font-size: 20px;
     color: #fff;
@@ -53,7 +64,7 @@ body {
 
 #btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
     cursor: pointer;
-    background-color: #57636e;
+    background-color: #0765ca;
 }
 
 #btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {

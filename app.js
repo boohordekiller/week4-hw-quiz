@@ -39,9 +39,10 @@ function showScores() {
     element.innerHTML = gameOverHTML;
 };
 
+
 var questions = [
-    new Question("The condition in an if / else statement is enclosed within ____.", ["Quotes", "curly brackets","parenthesis", "square brackets"], "parenthesis"),
-    new Question("The condition in an if / else statement is enclosed within1 ____.", ["Quotes", "curly brackets","parenthesis", "square brackets"], "parenthesis"),
+    new Question("The condition in an if / else statement is enclosed within ____.", ["quotes", "curly brackets","parenthesis", "square brackets"], "parenthesis"),
+    new Question("Commonly used data types DO NOT include:", ["strings", "booleans", "alerts", "numbers"], "alerts"),
     new Question("The condition in an if / else statement is enclosed within2 ____.", ["Quotes", "curly brackets","parenthesis", "square brackets"], "parenthesis"),
     new Question("The condition in an if / else statement is enclosed within3 ____.", ["Quotes", "curly brackets","parenthesis", "square brackets"], "parenthesis"),
     new Question("The condition in an if / else statement is enclosed within4 ____.", ["Quotes", "curly brackets","parenthesis", "square brackets"], "parenthesis"),
