@@ -41,11 +41,11 @@ function showScores() {
 
 
 var questions = [
-    new Question("The condition in an if / else statement is enclosed within ____.", ["quotes", "curly brackets","parenthesis", "square brackets"], "parenthesis"),
-    new Question("Commonly used data types DO NOT include:", ["strings", "booleans", "alerts", "numbers"], "alerts"),
-    new Question("The condition in an if / else statement is enclosed within2 ____.", ["Quotes", "curly brackets","parenthesis", "square brackets"], "parenthesis"),
-    new Question("The condition in an if / else statement is enclosed within3 ____.", ["Quotes", "curly brackets","parenthesis", "square brackets"], "parenthesis"),
-    new Question("The condition in an if / else statement is enclosed within4 ____.", ["Quotes", "curly brackets","parenthesis", "square brackets"], "parenthesis"),
+    new Question("Coding can be used to:", ["Program robots", "Control smart lights", "Create websites & apps", "All of the above"], "All of the above"),
+    new Question("If you weren't able to complete a challenge the first time you should", ["Try again", "Give up", "Bang the keyboard hard", "Go home and sleep"], "Try again"),
+    new Question("What is a coding bug?", ["An insect", "An error in program","An insect with two heads", "Something you can eat"], "An error in program"),
+    new Question("The condition in an if / else statement is enclosed within ____.", ["Quotes", "Curly brackets","Parenthesis", "Square brackets"], "Parenthesis"),
+    new Question("Commonly used data types DO NOT include:", ["Strings", "Booleans", "Alerts", "Numbers"], "Alerts"),
 ];
 
 var quiz = new Quiz(questions);
